@@ -1,0 +1,33 @@
+{
+  "source": "https://raw.githubusercontent.com/EmilHvitfeldt/smltar/master/data/complaints.csv.gz",
+  "archive_etag": "\"a3d7048bfd22e705611bb437b16240307887b23935b1b378689d4d4109589fef\"",
+  "archive_rows": 117214,
+  "archive_products": {
+    "Debt collection": 22287,
+    "Credit reporting, credit repair services, or other personal consumer reports": 55558,
+    "Money transfer, virtual currency, or money service": 2563,
+    "Mortgage": 9449,
+    "Student loan": 3941,
+    "Credit card or prepaid card": 11571,
+    "Checking or savings account": 6915,
+    "Payday loan, title loan, or personal loan": 2217,
+    "Vehicle loan or lease": 2713
+  },
+  "eligible_by_label": {
+    "Debt collection": 22287,
+    "Credit reporting": 54444,
+    "Mortgage": 9449,
+    "Credit card": 11131,
+    "Bank account": 6915
+  },
+  "sampled_by_label": {
+    "Bank account": 620,
+    "Credit card": 620,
+    "Credit reporting": 620,
+    "Debt collection": 620,
+    "Mortgage": 620
+  },
+  "first_sample_date": "2019-01-01",
+  "last_sample_date": "2020-01-08",
+  "sample_sha256": "1d5b16e761eaf18c8b20e69a1d8e332b7016c351e3f57cc2586769666d6f3f99"
+}

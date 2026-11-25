@@ -1,0 +1,341 @@
+id,actual,bert,baseline,ensemble
+3434916,Bank account,Bank account,Bank account,Bank account
+3437997,Bank account,Bank account,Bank account,Bank account
+3459593,Bank account,Bank account,Bank account,Bank account
+3287728,Bank account,Mortgage,Credit card,Credit card
+3159361,Bank account,Bank account,Bank account,Bank account
+3148879,Bank account,Bank account,Bank account,Bank account
+3120971,Bank account,Bank account,Bank account,Bank account
+3408811,Bank account,Bank account,Bank account,Bank account
+3177625,Bank account,Bank account,Bank account,Bank account
+3266083,Bank account,Bank account,Bank account,Bank account
+3339873,Bank account,Credit card,Bank account,Bank account
+3324559,Bank account,Bank account,Bank account,Bank account
+3401419,Bank account,Bank account,Bank account,Bank account
+3150838,Bank account,Bank account,Bank account,Bank account
+3287616,Bank account,Bank account,Bank account,Bank account
+3259862,Bank account,Bank account,Bank account,Bank account
+3401086,Bank account,Bank account,Bank account,Bank account
+3331689,Bank account,Bank account,Bank account,Bank account
+3381661,Bank account,Bank account,Bank account,Bank account
+3275891,Bank account,Bank account,Bank account,Bank account
+3397617,Bank account,Bank account,Bank account,Bank account
+3167453,Bank account,Bank account,Credit card,Credit card
+3125778,Bank account,Bank account,Bank account,Bank account
+3157657,Bank account,Bank account,Bank account,Bank account
+3140289,Bank account,Credit card,Bank account,Bank account
+3274276,Bank account,Debt collection,Bank account,Bank account
+3346248,Bank account,Credit card,Bank account,Bank account
+3296129,Bank account,Bank account,Bank account,Bank account
+3146150,Bank account,Bank account,Bank account,Bank account
+3222794,Bank account,Bank account,Bank account,Bank account
+3327923,Bank account,Debt collection,Bank account,Bank account
+3331648,Bank account,Bank account,Bank account,Bank account
+3388537,Bank account,Bank account,Bank account,Bank account
+3138898,Bank account,Bank account,Bank account,Bank account
+3398319,Bank account,Bank account,Credit card,Credit card
+3456123,Bank account,Bank account,Bank account,Bank account
+3352147,Bank account,Bank account,Bank account,Bank account
+3385629,Bank account,Bank account,Bank account,Bank account
+3193439,Bank account,Bank account,Bank account,Bank account
+3451053,Bank account,Bank account,Bank account,Bank account
+3248233,Bank account,Bank account,Bank account,Bank account
+3396883,Bank account,Credit card,Credit card,Credit card
+3227781,Bank account,Credit card,Bank account,Bank account
+3281870,Bank account,Mortgage,Bank account,Bank account
+3124390,Bank account,Bank account,Bank account,Bank account
+3184819,Bank account,Bank account,Bank account,Bank account
+3431559,Bank account,Bank account,Bank account,Bank account
+3340325,Bank account,Bank account,Bank account,Bank account
+3154193,Bank account,Bank account,Bank account,Bank account
+3264734,Bank account,Bank account,Bank account,Bank account
+3398925,Bank account,Bank account,Bank account,Bank account
+3291931,Bank account,Bank account,Bank account,Bank account
+3461134,Bank account,Bank account,Bank account,Bank account
+3133781,Bank account,Bank account,Bank account,Bank account
+3128063,Bank account,Bank account,Bank account,Bank account
+3203595,Bank account,Bank account,Credit card,Credit card
+3138048,Bank account,Bank account,Bank account,Bank account
+3235406,Bank account,Bank account,Bank account,Bank account
+3427076,Bank account,Bank account,Bank account,Bank account
+3370137,Bank account,Debt collection,Bank account,Bank account
+3134546,Bank account,Bank account,Bank account,Bank account
+3449971,Bank account,Bank account,Bank account,Bank account
+3180079,Bank account,Credit card,Bank account,Bank account
+3187438,Bank account,Bank account,Bank account,Bank account
+3181800,Bank account,Bank account,Bank account,Bank account
+3124662,Bank account,Bank account,Bank account,Bank account
+3406133,Bank account,Bank account,Bank account,Bank account
+3447968,Bank account,Bank account,Bank account,Bank account
+3355518,Credit card,Bank account,Bank account,Bank account
+3161230,Credit card,Bank account,Credit card,Credit card
+3223869,Credit card,Debt collection,Credit card,Credit card
+3314488,Credit card,Credit reporting,Credit reporting,Credit reporting
+3339125,Credit card,Mortgage,Bank account,Bank account
+3265152,Credit card,Bank account,Bank account,Bank account
+3251918,Credit card,Credit card,Credit card,Credit card
+3117576,Credit card,Credit card,Credit card,Credit card
+3164371,Credit card,Credit card,Credit card,Credit card
+3210900,Credit card,Credit card,Credit card,Credit card
+3351896,Credit card,Credit card,Credit card,Credit card
+3332045,Credit card,Debt collection,Credit card,Credit card
+3213799,Credit card,Credit card,Credit card,Credit card
+3276943,Credit card,Credit card,Credit card,Credit card
+3385207,Credit card,Credit card,Credit card,Credit card
+3420084,Credit card,Debt collection,Credit card,Credit card
+3129936,Credit card,Credit card,Credit card,Credit card
+3394609,Credit card,Credit card,Credit card,Credit card
+3296826,Credit card,Bank account,Credit card,Credit card
+3298723,Credit card,Credit card,Credit card,Credit card
+3189104,Credit card,Debt collection,Credit card,Credit card
+3191741,Credit card,Debt collection,Credit card,Credit card
+3461769,Credit card,Bank account,Credit card,Credit card
+3404556,Credit card,Credit card,Credit card,Credit card
+3183218,Credit card,Credit card,Credit card,Credit card
+3140170,Credit card,Credit card,Bank account,Bank account
+3331857,Credit card,Credit reporting,Mortgage,Credit card
+3349218,Credit card,Mortgage,Bank account,Bank account
+3154273,Credit card,Debt collection,Credit card,Credit card
+3119608,Credit card,Debt collection,Credit card,Credit card
+3170030,Credit card,Credit card,Credit card,Credit card
+3198806,Credit card,Debt collection,Debt collection,Debt collection
+3296327,Credit card,Credit card,Credit card,Credit card
+3221265,Credit card,Debt collection,Bank account,Bank account
+3404288,Credit card,Credit card,Credit card,Credit card
+3295787,Credit card,Credit card,Credit card,Credit card
+3348218,Credit card,Credit card,Credit card,Credit card
+3280891,Credit card,Mortgage,Bank account,Bank account
+3396397,Credit card,Credit card,Credit card,Credit card
+3421396,Credit card,Credit reporting,Credit card,Credit card
+3256338,Credit card,Bank account,Credit card,Credit card
+3164850,Credit card,Credit reporting,Credit card,Credit card
+3120593,Credit card,Bank account,Credit card,Credit card
+3230651,Credit card,Credit card,Credit card,Credit card
+3467566,Credit card,Credit card,Credit card,Credit card
+3423202,Credit card,Credit reporting,Credit card,Credit card
+3291061,Credit card,Debt collection,Bank account,Bank account
+3114479,Credit card,Credit card,Credit card,Credit card
+3310051,Credit card,Bank account,Credit card,Credit card
+3201241,Credit card,Credit card,Credit card,Credit card
+3306815,Credit card,Credit card,Credit card,Credit card
+3473002,Credit card,Credit reporting,Credit card,Credit card
+3402391,Credit card,Credit card,Credit card,Credit card
+3204478,Credit card,Credit card,Credit card,Credit card
+3156703,Credit card,Debt collection,Credit card,Credit card
+3382103,Credit card,Credit card,Credit card,Credit card
+3365838,Credit card,Bank account,Credit card,Credit card
+3231986,Credit card,Credit card,Credit card,Credit card
+3156485,Credit card,Debt collection,Debt collection,Debt collection
+3122185,Credit card,Credit card,Bank account,Bank account
+3191837,Credit card,Bank account,Credit card,Credit card
+3135450,Credit card,Credit card,Bank account,Bank account
+3360114,Credit card,Bank account,Credit card,Debt collection
+3419637,Credit card,Credit reporting,Credit card,Credit card
+3234894,Credit card,Bank account,Credit card,Credit card
+3312044,Credit card,Credit card,Credit card,Credit card
+3157882,Credit card,Credit card,Credit card,Credit card
+3123663,Credit card,Credit card,Credit card,Credit card
+3312075,Credit reporting,Credit reporting,Credit reporting,Credit reporting
+3204856,Credit reporting,Bank account,Bank account,Bank account
+3121783,Credit reporting,Credit reporting,Credit reporting,Credit reporting
+3225809,Credit reporting,Mortgage,Credit reporting,Credit reporting
+3426034,Credit reporting,Credit reporting,Credit reporting,Credit reporting
+3287595,Credit reporting,Credit reporting,Credit reporting,Credit reporting
+3365658,Credit reporting,Credit reporting,Credit reporting,Credit reporting
+3302173,Credit reporting,Bank account,Debt collection,Debt collection
+3127672,Credit reporting,Bank account,Credit reporting,Credit reporting
+3391385,Credit reporting,Credit reporting,Credit reporting,Credit reporting
+3228012,Credit reporting,Debt collection,Debt collection,Debt collection
+3190155,Credit reporting,Debt collection,Debt collection,Debt collection
+3231835,Credit reporting,Credit reporting,Credit reporting,Credit reporting
+3406058,Credit reporting,Credit reporting,Credit reporting,Credit reporting
+3325900,Credit reporting,Credit reporting,Credit reporting,Credit reporting
+3327144,Credit reporting,Credit reporting,Credit reporting,Credit reporting
+3125037,Credit reporting,Credit reporting,Credit card,Credit reporting
+3137252,Credit reporting,Credit reporting,Credit reporting,Credit reporting
+3376990,Credit reporting,Debt collection,Credit reporting,Credit reporting
+3312835,Credit reporting,Credit reporting,Credit reporting,Credit reporting
+3479135,Credit reporting,Debt collection,Credit reporting,Credit reporting
+3343752,Credit reporting,Debt collection,Debt collection,Debt collection
+3412096,Credit reporting,Debt collection,Credit reporting,Credit reporting
+3173298,Credit reporting,Credit reporting,Credit reporting,Credit reporting
+3222992,Credit reporting,Bank account,Credit reporting,Credit reporting
+3424672,Credit reporting,Bank account,Credit card,Credit card
+3390826,Credit reporting,Bank account,Credit reporting,Credit reporting
+3190933,Credit reporting,Credit reporting,Credit reporting,Credit reporting
+3476871,Credit reporting,Credit reporting,Credit reporting,Credit reporting
+3317185,Credit reporting,Credit reporting,Credit reporting,Credit reporting
+3301624,Credit reporting,Credit reporting,Credit reporting,Credit reporting
+3296176,Credit reporting,Credit reporting,Credit reporting,Credit reporting
+3430718,Credit reporting,Credit reporting,Credit reporting,Credit reporting
+3311901,Credit reporting,Credit reporting,Credit reporting,Credit reporting
+3415784,Credit reporting,Credit reporting,Mortgage,Mortgage
+3151878,Credit reporting,Credit reporting,Credit reporting,Credit reporting
+3276713,Credit reporting,Credit card,Credit card,Credit card
+3288539,Credit reporting,Credit reporting,Credit reporting,Credit reporting
+3389080,Credit reporting,Debt collection,Debt collection,Debt collection
+3264026,Credit reporting,Credit reporting,Credit reporting,Credit reporting
+3347546,Credit reporting,Credit reporting,Credit reporting,Credit reporting
+3185798,Credit reporting,Debt collection,Credit reporting,Credit reporting
+3276388,Credit reporting,Debt collection,Credit reporting,Credit reporting
+3256790,Credit reporting,Credit reporting,Credit reporting,Credit reporting
+3439714,Credit reporting,Debt collection,Credit reporting,Credit reporting
+3301744,Credit reporting,Credit reporting,Credit reporting,Credit reporting
+3379376,Credit reporting,Credit card,Credit reporting,Credit reporting
+3221684,Credit reporting,Debt collection,Credit reporting,Credit reporting
+3294223,Credit reporting,Bank account,Credit reporting,Credit reporting
+3228970,Credit reporting,Debt collection,Credit reporting,Credit reporting
+3344888,Credit reporting,Debt collection,Credit reporting,Credit reporting
+3280071,Credit reporting,Bank account,Credit reporting,Credit reporting
+3169588,Credit reporting,Credit reporting,Credit reporting,Credit reporting
+3145885,Credit reporting,Credit reporting,Credit reporting,Credit reporting
+3454633,Credit reporting,Credit reporting,Credit reporting,Credit reporting
+3375293,Credit reporting,Credit reporting,Credit reporting,Credit reporting
+3248649,Credit reporting,Bank account,Credit reporting,Credit reporting
+3229364,Credit reporting,Mortgage,Credit reporting,Credit reporting
+3134385,Credit reporting,Bank account,Credit card,Credit card
+3280966,Credit reporting,Credit reporting,Credit reporting,Credit reporting
+3147755,Credit reporting,Credit reporting,Credit reporting,Credit reporting
+3397112,Credit reporting,Credit reporting,Credit reporting,Credit reporting
+3339054,Credit reporting,Credit reporting,Credit reporting,Credit reporting
+3274680,Credit reporting,Debt collection,Credit reporting,Credit reporting
+3142098,Credit reporting,Bank account,Credit reporting,Credit reporting
+3452149,Credit reporting,Bank account,Credit reporting,Credit reporting
+3266301,Credit reporting,Bank account,Mortgage,Mortgage
+3348912,Credit reporting,Credit card,Credit reporting,Credit reporting
+3335054,Debt collection,Credit reporting,Debt collection,Debt collection
+3300524,Debt collection,Debt collection,Debt collection,Debt collection
+3214329,Debt collection,Bank account,Debt collection,Debt collection
+3293236,Debt collection,Debt collection,Debt collection,Debt collection
+3166161,Debt collection,Credit reporting,Debt collection,Debt collection
+3351227,Debt collection,Credit card,Credit card,Credit card
+3316116,Debt collection,Debt collection,Debt collection,Debt collection
+3205742,Debt collection,Credit reporting,Credit reporting,Credit reporting
+3134128,Debt collection,Debt collection,Credit card,Debt collection
+3169556,Debt collection,Debt collection,Credit reporting,Credit reporting
+3340381,Debt collection,Debt collection,Debt collection,Debt collection
+3309414,Debt collection,Debt collection,Debt collection,Debt collection
+3176811,Debt collection,Debt collection,Debt collection,Debt collection
+3423409,Debt collection,Debt collection,Debt collection,Debt collection
+3139945,Debt collection,Bank account,Debt collection,Debt collection
+3418708,Debt collection,Credit card,Credit card,Credit card
+3443106,Debt collection,Credit reporting,Credit reporting,Credit reporting
+3423476,Debt collection,Mortgage,Mortgage,Mortgage
+3397792,Debt collection,Bank account,Debt collection,Debt collection
+3225315,Debt collection,Bank account,Debt collection,Debt collection
+3326490,Debt collection,Bank account,Debt collection,Debt collection
+3234933,Debt collection,Debt collection,Credit reporting,Credit reporting
+3482713,Debt collection,Credit reporting,Credit reporting,Credit reporting
+3429550,Debt collection,Mortgage,Debt collection,Debt collection
+3159126,Debt collection,Debt collection,Debt collection,Debt collection
+3354932,Debt collection,Credit reporting,Credit reporting,Credit reporting
+3323712,Debt collection,Credit reporting,Credit reporting,Credit reporting
+3149619,Debt collection,Credit reporting,Debt collection,Debt collection
+3382641,Debt collection,Bank account,Debt collection,Bank account
+3128550,Debt collection,Debt collection,Debt collection,Debt collection
+3456588,Debt collection,Bank account,Debt collection,Debt collection
+3122181,Debt collection,Debt collection,Debt collection,Debt collection
+3306102,Debt collection,Credit reporting,Debt collection,Debt collection
+3191565,Debt collection,Debt collection,Debt collection,Debt collection
+3344504,Debt collection,Debt collection,Debt collection,Debt collection
+3147242,Debt collection,Mortgage,Mortgage,Mortgage
+3226289,Debt collection,Debt collection,Debt collection,Debt collection
+3268677,Debt collection,Debt collection,Debt collection,Debt collection
+3280079,Debt collection,Credit reporting,Credit reporting,Credit reporting
+3293047,Debt collection,Debt collection,Debt collection,Debt collection
+3426074,Debt collection,Debt collection,Debt collection,Debt collection
+3413168,Debt collection,Debt collection,Mortgage,Mortgage
+3138568,Debt collection,Debt collection,Debt collection,Debt collection
+3217597,Debt collection,Debt collection,Debt collection,Debt collection
+3254168,Debt collection,Debt collection,Debt collection,Debt collection
+3397856,Debt collection,Mortgage,Debt collection,Debt collection
+3190735,Debt collection,Debt collection,Debt collection,Debt collection
+3298382,Debt collection,Credit reporting,Debt collection,Debt collection
+3442485,Debt collection,Debt collection,Debt collection,Debt collection
+3379611,Debt collection,Mortgage,Debt collection,Debt collection
+3331997,Debt collection,Credit card,Debt collection,Debt collection
+3355008,Debt collection,Credit card,Mortgage,Mortgage
+3152270,Debt collection,Bank account,Mortgage,Mortgage
+3241326,Debt collection,Credit card,Credit card,Credit card
+3411526,Debt collection,Debt collection,Debt collection,Debt collection
+3376645,Debt collection,Bank account,Debt collection,Debt collection
+3408083,Debt collection,Credit reporting,Debt collection,Debt collection
+3297678,Debt collection,Debt collection,Credit reporting,Credit reporting
+3451853,Debt collection,Mortgage,Debt collection,Debt collection
+3165746,Debt collection,Debt collection,Debt collection,Debt collection
+3357404,Debt collection,Credit reporting,Credit reporting,Credit reporting
+3319985,Debt collection,Debt collection,Debt collection,Debt collection
+3399750,Debt collection,Credit card,Debt collection,Debt collection
+3303788,Debt collection,Debt collection,Debt collection,Debt collection
+3344866,Debt collection,Debt collection,Debt collection,Debt collection
+3123880,Debt collection,Debt collection,Debt collection,Debt collection
+3136198,Debt collection,Debt collection,Debt collection,Debt collection
+3125579,Debt collection,Mortgage,Mortgage,Mortgage
+3422068,Mortgage,Mortgage,Mortgage,Mortgage
+3406052,Mortgage,Mortgage,Mortgage,Mortgage
+3396369,Mortgage,Bank account,Mortgage,Mortgage
+3114658,Mortgage,Mortgage,Mortgage,Mortgage
+3270167,Mortgage,Mortgage,Mortgage,Mortgage
+3352159,Mortgage,Credit card,Mortgage,Mortgage
+3359968,Mortgage,Mortgage,Mortgage,Mortgage
+3159574,Mortgage,Bank account,Mortgage,Mortgage
+3231005,Mortgage,Mortgage,Mortgage,Mortgage
+3386926,Mortgage,Mortgage,Mortgage,Mortgage
+3450784,Mortgage,Debt collection,Mortgage,Mortgage
+3418569,Mortgage,Credit reporting,Credit card,Credit card
+3336273,Mortgage,Mortgage,Mortgage,Mortgage
+3373585,Mortgage,Mortgage,Mortgage,Mortgage
+3246950,Mortgage,Mortgage,Mortgage,Mortgage
+3442396,Mortgage,Mortgage,Mortgage,Mortgage
+3309839,Mortgage,Mortgage,Mortgage,Mortgage
+3114459,Mortgage,Mortgage,Mortgage,Mortgage
+3285897,Mortgage,Bank account,Mortgage,Mortgage
+3323434,Mortgage,Credit card,Mortgage,Mortgage
+3437155,Mortgage,Bank account,Mortgage,Mortgage
+3313623,Mortgage,Mortgage,Mortgage,Mortgage
+3123181,Mortgage,Credit reporting,Mortgage,Mortgage
+3270184,Mortgage,Bank account,Credit card,Credit card
+3143106,Mortgage,Mortgage,Mortgage,Mortgage
+3206036,Mortgage,Mortgage,Mortgage,Mortgage
+3233765,Mortgage,Mortgage,Mortgage,Mortgage
+3467121,Mortgage,Bank account,Mortgage,Mortgage
+3216735,Mortgage,Debt collection,Mortgage,Mortgage
+3431436,Mortgage,Bank account,Mortgage,Mortgage
+3164065,Mortgage,Mortgage,Mortgage,Mortgage
+3270487,Mortgage,Mortgage,Mortgage,Mortgage
+3159071,Mortgage,Mortgage,Mortgage,Mortgage
+3351551,Mortgage,Credit card,Mortgage,Mortgage
+3281154,Mortgage,Mortgage,Mortgage,Mortgage
+3397820,Mortgage,Mortgage,Bank account,Bank account
+3342697,Mortgage,Bank account,Bank account,Bank account
+3337736,Mortgage,Mortgage,Mortgage,Mortgage
+3411465,Mortgage,Bank account,Mortgage,Mortgage
+3396320,Mortgage,Mortgage,Mortgage,Mortgage
+3221731,Mortgage,Mortgage,Mortgage,Mortgage
+3201919,Mortgage,Mortgage,Mortgage,Mortgage
+3273251,Mortgage,Mortgage,Mortgage,Mortgage
+3390246,Mortgage,Bank account,Mortgage,Mortgage
+3146305,Mortgage,Credit reporting,Mortgage,Mortgage
+3113835,Mortgage,Mortgage,Mortgage,Mortgage
+3385813,Mortgage,Mortgage,Mortgage,Mortgage
+3129601,Mortgage,Mortgage,Mortgage,Mortgage
+3187436,Mortgage,Mortgage,Mortgage,Mortgage
+3203215,Mortgage,Mortgage,Mortgage,Mortgage
+3463219,Mortgage,Bank account,Mortgage,Mortgage
+3349926,Mortgage,Mortgage,Mortgage,Mortgage
+3444277,Mortgage,Bank account,Mortgage,Mortgage
+3376594,Mortgage,Bank account,Credit reporting,Credit reporting
+3368328,Mortgage,Mortgage,Mortgage,Mortgage
+3115020,Mortgage,Mortgage,Mortgage,Mortgage
+3408700,Mortgage,Mortgage,Mortgage,Mortgage
+3113886,Mortgage,Mortgage,Mortgage,Mortgage
+3267176,Mortgage,Debt collection,Mortgage,Mortgage
+3278636,Mortgage,Mortgage,Mortgage,Mortgage
+3430841,Mortgage,Mortgage,Mortgage,Mortgage
+3137341,Mortgage,Mortgage,Mortgage,Mortgage
+3327475,Mortgage,Mortgage,Mortgage,Mortgage
+3406731,Mortgage,Mortgage,Mortgage,Mortgage
+3271906,Mortgage,Mortgage,Mortgage,Mortgage
+3218927,Mortgage,Mortgage,Mortgage,Mortgage
+3235911,Mortgage,Mortgage,Mortgage,Mortgage
+3181700,Mortgage,Mortgage,Mortgage,Mortgage

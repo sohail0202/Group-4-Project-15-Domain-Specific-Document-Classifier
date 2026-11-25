@@ -1,0 +1,355 @@
+{
+  "model": "Ledger BERT",
+  "router": "Ledger ensemble",
+  "seed": 15,
+  "labels": [
+    "Bank account",
+    "Credit card",
+    "Credit reporting",
+    "Debt collection",
+    "Mortgage"
+  ],
+  "max_tokens": 128,
+  "data": {
+    "cleaning": {
+      "source_rows": 3100,
+      "missing_or_short": 108,
+      "same_label_duplicate": 24,
+      "outside_class_cap": 718
+    },
+    "total": 2250,
+    "splits": {
+      "train": 1570,
+      "validation": 340,
+      "test": 340
+    },
+    "by_class": {
+      "Bank account": {
+        "test": 68,
+        "validation": 68,
+        "train": 314,
+        "median_words": 173.5
+      },
+      "Credit card": {
+        "test": 68,
+        "validation": 68,
+        "train": 314,
+        "median_words": 169.5
+      },
+      "Credit reporting": {
+        "test": 68,
+        "validation": 68,
+        "train": 314,
+        "median_words": 96.0
+      },
+      "Debt collection": {
+        "test": 68,
+        "validation": 68,
+        "train": 314,
+        "median_words": 115.0
+      },
+      "Mortgage": {
+        "test": 68,
+        "validation": 68,
+        "train": 314,
+        "median_words": 207.0
+      }
+    },
+    "truncated": 1497
+  },
+  "training": {
+    "selected_epoch": 11,
+    "temperature": 1.15,
+    "tfidf_temperature": 0.8499999999999999,
+    "bert_weight": 0.15000000000000002,
+    "ensemble_temperature": 0.9249999999999999,
+    "encoder_projection_delta_l2": 3.6240997314453125,
+    "epochs": [
+      {
+        "epoch": 1,
+        "validation_f1": 0.539421173240928,
+        "validation_loss": 1.3331323215276984
+      },
+      {
+        "epoch": 2,
+        "validation_f1": 0.5765854643123582,
+        "validation_loss": 1.1494328177088913
+      },
+      {
+        "epoch": 3,
+        "validation_f1": 0.5980835495702767,
+        "validation_loss": 1.057310959714212
+      },
+      {
+        "epoch": 4,
+        "validation_f1": 0.5993475469701044,
+        "validation_loss": 0.9847442190347244
+      },
+      {
+        "epoch": 5,
+        "validation_f1": 0.61040672276542,
+        "validation_loss": 0.9769128900701901
+      },
+      {
+        "epoch": 6,
+        "validation_f1": 0.6294334303198472,
+        "validation_loss": 0.9515794558997308
+      },
+      {
+        "epoch": 7,
+        "validation_f1": 0.627315778730353,
+        "validation_loss": 0.9289429188586736
+      },
+      {
+        "epoch": 8,
+        "validation_f1": 0.6409151407009676,
+        "validation_loss": 0.9093459197765263
+      },
+      {
+        "epoch": 9,
+        "validation_f1": 0.6349865850894951,
+        "validation_loss": 0.9107999702498593
+      },
+      {
+        "epoch": 10,
+        "validation_f1": 0.6310893024676848,
+        "validation_loss": 0.9195225954973489
+      },
+      {
+        "epoch": 11,
+        "validation_f1": 0.6577106780916776,
+        "validation_loss": 0.9430430990620936
+      },
+      {
+        "epoch": 12,
+        "validation_f1": 0.6572586166148336,
+        "validation_loss": 0.9111970996168101
+      }
+    ]
+  },
+  "bert": {
+    "accuracy": 0.6058823529411764,
+    "macro_precision": 0.617290308561495,
+    "macro_recall": 0.6058823529411764,
+    "macro_f1": 0.6022754199406225,
+    "per_class": {
+      "Bank account": {
+        "precision": 0.5480769230769231,
+        "recall": 0.8382352941176471,
+        "f1": 0.6627906976744187,
+        "support": 68
+      },
+      "Credit card": {
+        "precision": 0.6538461538461539,
+        "recall": 0.5,
+        "f1": 0.5666666666666668,
+        "support": 68
+      },
+      "Credit reporting": {
+        "precision": 0.6101694915254238,
+        "recall": 0.5294117647058824,
+        "f1": 0.5669291338582677,
+        "support": 68
+      },
+      "Debt collection": {
+        "precision": 0.5076923076923077,
+        "recall": 0.4852941176470588,
+        "f1": 0.49624060150375937,
+        "support": 68
+      },
+      "Mortgage": {
+        "precision": 0.7666666666666667,
+        "recall": 0.6764705882352942,
+        "f1": 0.71875,
+        "support": 68
+      }
+    },
+    "confusion_matrix": [
+      [
+        57,
+        6,
+        0,
+        3,
+        2
+      ],
+      [
+        12,
+        34,
+        7,
+        12,
+        3
+      ],
+      [
+        13,
+        3,
+        36,
+        14,
+        2
+      ],
+      [
+        9,
+        6,
+        13,
+        33,
+        7
+      ],
+      [
+        13,
+        3,
+        3,
+        3,
+        46
+      ]
+    ]
+  },
+  "baseline": {
+    "accuracy": 0.8352941176470589,
+    "macro_precision": 0.8365625497130409,
+    "macro_recall": 0.8352941176470589,
+    "macro_f1": 0.8334676769051933,
+    "per_class": {
+      "Bank account": {
+        "precision": 0.8289473684210527,
+        "recall": 0.9264705882352942,
+        "f1": 0.875,
+        "support": 68
+      },
+      "Credit card": {
+        "precision": 0.782608695652174,
+        "recall": 0.7941176470588235,
+        "f1": 0.7883211678832117,
+        "support": 68
+      },
+      "Credit reporting": {
+        "precision": 0.8235294117647058,
+        "recall": 0.8235294117647058,
+        "f1": 0.8235294117647058,
+        "support": 68
+      },
+      "Debt collection": {
+        "precision": 0.8727272727272727,
+        "recall": 0.7058823529411765,
+        "f1": 0.7804878048780488,
+        "support": 68
+      },
+      "Mortgage": {
+        "precision": 0.875,
+        "recall": 0.9264705882352942,
+        "f1": 0.9,
+        "support": 68
+      }
+    },
+    "confusion_matrix": [
+      [
+        63,
+        5,
+        0,
+        0,
+        0
+      ],
+      [
+        10,
+        54,
+        1,
+        2,
+        1
+      ],
+      [
+        1,
+        4,
+        56,
+        5,
+        2
+      ],
+      [
+        0,
+        4,
+        10,
+        48,
+        6
+      ],
+      [
+        2,
+        2,
+        1,
+        0,
+        63
+      ]
+    ]
+  },
+  "ensemble": {
+    "accuracy": 0.8382352941176471,
+    "macro_precision": 0.8389411449524236,
+    "macro_recall": 0.8382352941176471,
+    "macro_f1": 0.8363501348187057,
+    "per_class": {
+      "Bank account": {
+        "precision": 0.8181818181818182,
+        "recall": 0.9264705882352942,
+        "f1": 0.8689655172413794,
+        "support": 68
+      },
+      "Credit card": {
+        "precision": 0.8059701492537313,
+        "recall": 0.7941176470588235,
+        "f1": 0.8,
+        "support": 68
+      },
+      "Credit reporting": {
+        "precision": 0.8260869565217391,
+        "recall": 0.8382352941176471,
+        "f1": 0.832116788321168,
+        "support": 68
+      },
+      "Debt collection": {
+        "precision": 0.8571428571428571,
+        "recall": 0.7058823529411765,
+        "f1": 0.7741935483870968,
+        "support": 68
+      },
+      "Mortgage": {
+        "precision": 0.8873239436619719,
+        "recall": 0.9264705882352942,
+        "f1": 0.906474820143885,
+        "support": 68
+      }
+    },
+    "confusion_matrix": [
+      [
+        63,
+        5,
+        0,
+        0,
+        0
+      ],
+      [
+        10,
+        54,
+        1,
+        3,
+        0
+      ],
+      [
+        1,
+        3,
+        57,
+        5,
+        2
+      ],
+      [
+        1,
+        3,
+        10,
+        48,
+        6
+      ],
+      [
+        2,
+        2,
+        1,
+        0,
+        63
+      ]
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+Ledger | Project 15
+
+Extract the ZIP and open a terminal in the Ledger - Project 15 folder.
+Run the commands from the folder containing app.py and requirements.txt.
+Use Python 3.12 and an internet connection for the first dependency install.
+The ZIP includes the trained model. Ledger runs locally after setup.
+
+Windows (PowerShell)
+
+    py -3.12 -m venv .venv
+    .\.venv\Scripts\python.exe -m pip install --no-cache-dir -r requirements.txt
+    .\.venv\Scripts\python.exe app.py
+
+If your Python 3.12 installation has no py launcher, use
+python -m venv .venv as the first command.
+
+macOS and Linux (Terminal)
+
+    python3.12 -m venv .venv
+    .venv/bin/python -m pip install --no-cache-dir -r requirements.txt
+    .venv/bin/python app.py
+
+If python3 is the name of your Python 3.12 executable, use
+python3 -m venv .venv as the first command.
+
+Open and test Ledger
+
+Open http://127.0.0.1:8765/ in your browser.
+Click Card charge, then Classify document. The predicted category is Credit card.
+Try Upload file with examples/mortgage-escrow.pdf. The predicted category is Mortgage.
+
+To start Ledger again, rerun the last command for your operating system.
+Press Ctrl+C in the terminal to stop Ledger.
+If port 8765 is in use, add --port 8766 to the run command and open
+http://127.0.0.1:8766/ instead.

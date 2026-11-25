@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#202d26">
+  <link rel="icon" href="data:,">
+  <title>Ledger | Financial complaint classifier</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <div class="app-layout">
+    <aside class="rail" aria-label="Ledger tools">
+      <a class="wordmark" href="/" aria-label="Ledger home"><span class="mark" aria-hidden="true"></span>Ledger</a>
+      <section class="examples" aria-labelledby="samples-title">
+        <h2 id="samples-title">Sample complaints</h2>
+        <button type="button" data-sample="card"><span class="sample-icon icon-card" aria-hidden="true"></span><span>Card charge</span><span class="sample-arrow" aria-hidden="true">↗</span></button>
+        <button type="button" data-sample="credit"><span class="sample-icon icon-report" aria-hidden="true"></span><span>Credit report</span><span class="sample-arrow" aria-hidden="true">↗</span></button>
+        <button type="button" data-sample="mortgage"><span class="sample-icon icon-house" aria-hidden="true"></span><span>Mortgage escrow</span><span class="sample-arrow" aria-hidden="true">↗</span></button>
+      </section>
+      <button type="button" id="open-model" class="rail-notes"><span class="info-icon" aria-hidden="true">i</span>Model notes<span class="sample-arrow" aria-hidden="true">↗</span></button>
+      <p class="rail-footer">GROUP 4 · NLP CAPSTONE</p>
+    </aside>
+
+    <main id="workspace">
+      <div class="workspace-bar">
+        <p class="breadcrumb"><span>Project 15</span><span class="breadcrumb-divider" aria-hidden="true">/</span>Workspace</p>
+        <p class="local"><span aria-hidden="true"></span>Processed on this device</p>
+      </div>
+      <div class="canvas">
+        <header class="intro">
+          <h1>Classify a complaint</h1>
+          <p>Find the financial product category for a complaint or document.</p>
+        </header>
+
+        <div class="workbench">
+          <section class="editor panel" aria-labelledby="input-title">
+            <div class="panel-head">
+              <h2 id="input-title">Input document</h2>
+              <button type="button" id="clear" class="plain" disabled>Clear</button>
+            </div>
+            <div class="modes" role="tablist" aria-label="Document input method">
+              <button id="text-mode" type="button" role="tab" aria-selected="true" aria-controls="text-panel"><span class="tab-text-icon" aria-hidden="true"></span>Paste text</button>
+              <button id="file-mode" type="button" role="tab" aria-selected="false" aria-controls="file-panel" tabindex="-1"><span class="tab-upload-icon" aria-hidden="true">↑</span>Upload file</button>
+            </div>
+            <form id="classify-form" novalidate>
+              <div id="text-panel" role="tabpanel" aria-labelledby="text-mode">
+                <div class="paper">
+                  <label for="complaint">Complaint text</label>
+                  <textarea id="complaint" maxlength="40000" placeholder="Paste the complaint here…" aria-describedby="text-hint"></textarea>
+                  <div class="paper-foot"><span id="text-hint">English text</span><span id="word-count">0 words</span></div>
+                </div>
+              </div>
+              <div id="file-panel" role="tabpanel" aria-labelledby="file-mode" hidden>
+                <div id="dropzone" class="dropzone">
+                  <span class="upload-glyph" aria-hidden="true">↑</span>
+                  <strong id="file-name">Drop a document here</strong>
+                  <span id="file-hint">TXT, text-based PDF or DOCX · up to 8 MB</span>
+                  <input id="file" type="file" accept=".txt,.pdf,.docx" aria-label="Choose a document" hidden>
+                  <button type="button" id="choose-file" class="choose-file">Choose file</button>
+                </div>
+              </div>
+              <p class="feedback" id="error" role="alert" hidden></p>
+              <div class="form-foot">
+                <button type="submit" id="submit" class="primary">Classify document <span aria-hidden="true">→</span></button>
+                <span class="shortcut"><kbd>Ctrl</kbd> + <kbd>Enter</kbd></span>
+              </div>
+            </form>
+          </section>
+
+          <section class="result panel" aria-labelledby="result-title">
+            <div class="panel-head">
+              <h2 id="result-title">Classification</h2>
+              <span id="result-status" class="status" data-state="ready" role="status"><i aria-hidden="true"></i><span id="status-text">Ready</span></span>
+            </div>
+            <div id="result-live" aria-live="polite">
+              <div id="empty">
+                <div class="empty-emblem" aria-hidden="true"><span></span><span></span><span></span></div>
+                <p class="empty-title">No classification yet</p>
+                <p class="empty-description">Classify a document to see its category and confidence scores.</p>
+                <ul class="empty-categories" aria-label="Supported categories">
+                  <li>Bank account</li><li>Credit card</li><li>Credit reporting</li><li>Debt collection</li><li>Mortgage</li>
+                </ul>
+              </div>
+              <div id="prediction" hidden>
+                <div class="prediction-heading">
+                  <div class="prediction-label">
+                    <p class="result-label">Predicted category</p>
+                    <p id="category"></p>
+                  </div>
+                  <div class="confidence-meter">
+                    <div id="confidence-ring" class="confidence-ring"><span id="confidence"></span></div>
+                    <span class="result-label">Confidence</span>
+                  </div>
+                </div>
+                <p id="review" hidden>Review suggested. The top score is low or close to another category.</p>
+                <ol id="scores" aria-label="Category scores"></ol>
+                <p id="token-note" class="token-note"></p>
+                <details id="summary">
+                  <summary>Document summary</summary>
+                  <div id="summary-excerpts"></div>
+                </details>
+              </div>
+            </div>
+            <div class="model-credit"><span>Ledger ensemble</span><span>BERT-Tiny + TF-IDF</span></div>
+          </section>
+        </div>
+        <footer class="page-footer">Domain-Specific Document Classifier</footer>
+      </div>
+    </main>
+  </div>
+
+  <dialog id="model-dialog" aria-labelledby="model-title">
+    <div class="dialog-top"><h2 id="model-title">Model notes</h2><form method="dialog"><button aria-label="Close model notes">×</button></form></div>
+    <p>Ledger combines a fine-tuned BERT-Tiny model with a TF-IDF classifier. Both trained on published CFPB complaints.</p>
+    <dl><dt>Held-out macro F1</dt><dd id="model-f1">Loading…</dd><dt>Test complaints</dt><dd id="model-size">Loading…</dd></dl>
+    <p>BERT reads the first 126 WordPiece tokens. TF-IDF reads the full text. Long or mixed complaints may need manual review.</p>
+    <p>Confidence is the model's score for a category. A high score can still be wrong.</p>
+  </dialog>
+</body>
+</html>
